@@ -7,6 +7,6 @@ VOLUME /bot
 WORKDIR /root/
 COPY entrypoint.sh .
 
-RUN apt-get update && apt-get install -y git
+RUN apt-get update && apt-get install -y git curl wget dialog
 
 ENTRYPOINT /root/entrypoint.sh
