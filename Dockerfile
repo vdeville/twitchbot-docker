@@ -1,4 +1,4 @@
-FROM php:7.1.6-cli
+FROM php:7.2.13-cli
 
 MAINTAINER Valentin Deville <contact@valentin-deville.eu>
 
